@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gradient-to-b from-gray-900 via-blue-700 to-purple-600 text-white min-h-screen flex flex-col">
+
+  <!-- Header -->
+  <header class="flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-3">
+    <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
+      <a class="flex-none font-extrabold text-xl text-black focus:outline-hidden focus:opacity-80" href="index.html">Isaiah Odunsi</a>
+      <div class="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:ps-5">
+        <a class="font-medium text-gray-600 hover:text-purple-600" href="index.html">Welcome</a>
+        <a class="font-medium text-gray-600 hover:text-purple-600" href="work.html">Work</a>
+        <a class="font-medium text-purple-600" href="#">Contact + Resume</a>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <main class="flex-1 flex flex-col items-center justify-center px-6 py-16">
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">Let’s Connect</h2>
+
+    <!-- Contact Links -->
+    <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl w-full text-center">
+      
+      <!-- Email -->
+      <a href="mailto:io6@njit.edu" 
+         class="bg-white/10 rounded-2xl p-6 shadow-lg hover:bg-white/20 transition flex flex-col items-center">
+        <i data-lucide="mail" class="w-10 h-10 mb-4"></i>
+        <span class="font-medium">io6@njit.edu</span>
+      </a>
+
+      <!-- LinkedIn -->
+      <a href="https://www.linkedin.com/in/iodunsi/" target="_blank" 
+         class="bg-white/10 rounded-2xl p-6 shadow-lg hover:bg-white/20 transition flex flex-col items-center">
+        <i data-lucide="linkedin" class="w-10 h-10 mb-4"></i>
+        <span class="font-medium">LinkedIn</span>
+      </a>
+
+      <!-- Resume -->
+      <a href="media/Resume est. 9_25.docx.pdf" download 
+         class="bg-white/10 rounded-2xl p-6 shadow-lg hover:bg-white/20 transition flex flex-col items-center">
+        <i data-lucide="file-text" class="w-10 h-10 mb-4"></i>
+        <span class="font-medium">Download Resume</span>
+      </a>
+    </div>
+
+    <!-- Closing Note -->
+    <div class="mt-16 max-w-2xl text-center">
+      <h3 class="text-xl font-semibold mb-4">In typical UX/UI fashion…</h3>
+      <p class="text-base leading-relaxed">
+        I’m going to close with an 
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRDMNqM7X9sZ06zSsdeKzwX0J3NtE8VF3QURUzK1mh39XpEQ/viewform?usp=dialog" target="_blank" class="underline text-pink-400 hover:text-pink-500">
+          optional survey
+        </a> 
+        about your experience with my portfolio. Feedback via email is also welcome!
+      </p>
+      <p class="mt-8 text-3xl font-bold text-white-400">Thank You!</p>
+    </div>
+  </main>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
