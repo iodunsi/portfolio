@@ -15,27 +15,56 @@
       <div class="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:ps-5">
         <a class="font-medium text-gray-600 hover:text-purple-600 focus:outline-hidden" href="index.html">Welcome</a>
         <a class="font-medium text-purple-600" href="#">Work</a>
-        <a class="font-medium text-gray-600 hover:text-purple-600 focus:outline-hidden" href="contact.html">Contact + Resume</a>
+        <a class="font-medium text-gray-600 hover:text-purple-600 focus:outline-hidden" href="#">Contact + Resume</a>
       </div>
     </nav>
   </header>
 
   <!-- Work Section -->
-  <main class="flex flex-col items-center px-6 py-16">
-    <h2 class="text-2xl md:text-3xl font-bold mb-8 text-center">My Very First UX Project</h2>
+  <main class="px-6 py-16 max-w-6xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-bold mb-12 text-center">My Projects</h2>
 
-    <!-- Project Card -->
-    <a href="lost-i.html" class="relative group block max-w-sm w-full">
-      <!-- Project Image -->
-      <img src="media/LOST iNIATIVE.png" 
-           alt="Lost Initiative Project" 
-           class="rounded-xl shadow-lg w-full h-auto object-cover">
+    <!-- Grid of Projects -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
+      
+      <!-- Project Card 1 -->
+      <a href="lost-i.html" class="relative group block rounded-xl overflow-hidden shadow-lg">
+        <img src="media/LOST iNIATIVE.png" alt="Lost Initiative Project"
+             class="w-full h-64 object-cover">
+        <div class="absolute inset-0 bg-purple-700/70 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-lg font-semibold">The Lost Initiative</span>
+        </div>
+      </a>
 
-      <!-- Overlay -->
-      <div class="absolute inset-0 bg-purple-700/70 opacity-0 group-hover:opacity-100 transition duration-300 rounded-xl flex items-center justify-center">
-        <span class="text-white text-xl font-semibold">The Lost Initiative</span>
-      </div>
-    </a>
+      <!-- Project Card 2 -->
+      <a href="#" class="relative group block rounded-xl overflow-hidden shadow-lg">
+        <img src="media/storyboard-qc.png" alt="Contextual Inquiry Project"
+             class="w-full h-64 object-cover">
+        <div class="absolute inset-0 bg-purple-700/70 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-lg font-semibold">Contextual Inquiry: Understanding
+Player Decision-Making in Animal Crossing: New Horizons</span>
+        </div>
+      </a>
+
+      <!-- Project Card 3 -->
+      <a href="#" class="relative group block rounded-xl overflow-hidden shadow-lg">
+        <img src="media/heropic.png" alt="AI News Project"
+             class="w-full h-64 object-cover">
+        <div class="absolute inset-0 bg-purple-700/70 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-lg font-semibold">Website Critique: CurrentAI.me</span>
+        </div>
+      </a>
+
+      <!-- Project Card 4 -->
+      <a href="#" class="relative group block rounded-xl overflow-hidden shadow-lg">
+        <img src="media/saas-healthcare-app-icon.png" alt="SAAS Healthcare App Research"
+             class="w-full h-64 object-cover">
+        <div class="absolute inset-0 bg-purple-700/70 opacity-0 group-hover:opacity-100 transition duration-300 flex items-center justify-center">
+          <span class="text-white text-lg font-semibold">UX Research: SAAS Healthcare Application</span>
+        </div>
+      </a>
+
+    </div>
   </main>
 
 </body>
