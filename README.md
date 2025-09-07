@@ -1,1 +1,3 @@
 # My UX/UI Portfolio
+
+This is my UX/UI portfolio. I discovered UX/UI while taking Web Specialization courses at NJIT as part of the Information Technology program. My interest quickly grew in this subject, and I knew I wanted to assist with making user friendly and accessible interfaces with designs reflective of a diverse set of people that represent different walks of life and different cultures. The case studies that I have linked on the "My Work" page give you a glimpse into my design thought process while completing my coursework. I hope the information is digestible and that you enjoy the experience! :)
